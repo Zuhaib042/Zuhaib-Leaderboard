@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.main-container {
+  padding: 0 6rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.scores-section {
+  max-width: 700px;
+  flex-basis: 500px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.scores-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+
+.btn-scores-section {
+  margin: 8px 1rem 0 0;
+  cursor: pointer;
+  border: 2px solid #000;
+  font-weight: 800;
+  background-color: #fff;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
+  padding: 4px 8px;
+}
+
+.btn-submit {
+  align-self: flex-end;
+  margin: 10px 0;
+  cursor: pointer;
+  border: 2px solid #000;
+  font-weight: 800;
+  background-color: #fff;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
+  padding: 4px 8px;
+}
+
+.scores-section h2 {
+  font-size: 2rem;
+  padding: 5px 0 0 1rem;
+}
+
+.form-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 0 2rem;
+  width: 325px;
+  height: 200px;
+}
+
+.form-section h2 {
+  font-size: 2rem;
+  padding: 5px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-name,
+.input-score {
+  min-width: 260px;
+  padding: 6px 12px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+.scores-list {
+  border: 2px solid black;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.singleLi {
+  padding: 10px;
+}
+
+.singleLi:nth-child(odd) {
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    padding: 0 4rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .scores-section {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .main-container {
+    padding: 0 3rem;
+  }
+}

@@ -8,7 +8,33 @@
 </head>
 
 <body>
-
+    <header class="header">
+        <h1 class="main-heading">Leaderboard</h1>
+    </header>
+    <main class="main-container">
+        <article id="scores-section" class="scores-section">
+            <div class="scores-section-header">
+                <h2>Recent Scores</h2>
+                <button class="btn-scores-section" type="button">Refresh</button>
+            </div>
+            <div id="container" class="container">
+                <!-- <ul class="scores-list list-none" id="scores-list">
+                </ul> -->
+            </div>
+        </article>
+        <article id="form-section" class="form-section">
+            <h2>Add your score</h2>
+            <form id="form" class="form" action="POST">
+                <label for="name">
+                    <input type="text" id="name" placeholder="Your Name" class="input-name" required>
+                </label>
+                <label for="score">
+                    <input type="text" id="score" placeholder="Your Score" class="input-score" required>
+                </label>
+                <button type="submit" class="btn-submit" id="btn-submit">Submit</button>
+            </form>
+        </article>
+    </main>
 </body>
 
 </html>
