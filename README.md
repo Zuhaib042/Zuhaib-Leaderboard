@@ -6,11 +6,11 @@
 
 ## Built With
 
-- Major languages
+- Major languages :-
   Html, Css, Javascript
-- Frameworks
+- Frameworks :-
   none
-- Technologies used
+- Technologies used :-
   webpack, git, github, and API
 
 ## Live Demo (if available)
