@@ -1,14 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# webpack-boilerplate
+# Zuhaib-Leaderboard
 
-> It is a simple webpack boilerplate to use in projects as a starting point.
+> It is a simple website where user submit their name and score that gets preserved in the external API and then gets displayed on the screen
 
 ## Built With
 
 - Major languages
+  Html, Css, Javascript
 - Frameworks
+  none
 - Technologies used
+  webpack, git, github, and API
 
 ## Live Demo (if available)
 
@@ -18,11 +21,13 @@
 
 To get a local copy up and running follow these simple example steps.
 run git clone
-https://github.com/Zuhaib042/webpack-boilerplate.git
+`https://github.com/Zuhaib042/Zuhaib-Leaderboard.git`
+
+then run `npm install` to install node packages.
 
 ### Prerequisites
 
-moderate knowledge of Html,Css and Javascript.
+moderate knowledge of Html,Css and Javascript and APIs
 
 ### Install
 
@@ -57,5 +62,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
