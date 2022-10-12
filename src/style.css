@@ -33,7 +33,7 @@ body {
   flex-basis: 500px;
   flex-grow: 0;
   flex-shrink: 1;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
 .scores-section-header {
@@ -72,7 +72,7 @@ body {
 }
 
 .form-section {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   padding: 0 2rem;
   width: 325px;
   height: 200px;
@@ -104,12 +104,12 @@ body {
   padding: 10px;
 }
 
-.singleLi:nth-child(odd) {
-  background-color: #ddd;
-}
-
 .singleLi {
   padding: 10px;
+}
+
+.singleLi:nth-child(odd) {
+  background-color: #ddd;
 }
 
 @media screen and (max-width: 768px) {
@@ -118,6 +118,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
   }
+
   .scores-section {
     width: 100%;
     margin-bottom: 2rem;
