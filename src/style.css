@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  /* background-image: url('./images/leadboard-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat */
+}
+
+.list-none {
+  list-style: none;
+}
+
+.header {
+  padding: 2rem 1.8rem 1rem;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.main-container {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.scores-section {
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.scores-section-header {
+  display: flex;
+  justify-content: space-between;
+}
+.scores-section h2 {
+  font-size: 2rem;
+  padding: 5px 10px;
+}
+
+.form-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-section h2 {
+  font-size: 2rem;
+  padding: 5px 10px;
+}
