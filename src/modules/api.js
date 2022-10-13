@@ -3,7 +3,7 @@ export const postApi = async () => {
   const inputName = document.getElementById('name');
   const inputScore = document.getElementById('score');
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/df23vU4fdUk434jkoY9J/scores/',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/he78Jhew0fweHk4HRG7j/scores/',
     {
       method: 'POST',
       headers: { 'Content-type': 'application/json; charset=UTF-8' },
@@ -11,21 +11,19 @@ export const postApi = async () => {
         user: inputName.value,
         score: inputScore.value,
       }),
-    }
+    },
   );
-  //   const data = await response.json();
-  //   console.log(data);
-  return response.json();
+  inputName.value = '';
+  inputScore.value = '';
+  const data = await response.json();
+  return data;
 };
 
 // fetch data from api
-
 export const getData = async () => {
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/df23vU4fdUk434jkoY9J/scores/'
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/he78Jhew0fweHk4HRG7j/scores/',
   );
   const data2 = await response.json();
-  console.log(data2);
   return data2;
 };
-// getData();

@@ -1,13 +1,19 @@
-import { getData } from './api';
+import { getData } from './api.js';
+
 export default class List {
-  static renderList = async (dataApi) => {
+  static renderList = async () => {
     const data = await getData();
     const ulContainer = document.getElementById('container');
     const ul = document.createElement('ul');
-    const html = `<li class='singleLi'><span>${data.user} :</span> <span>${data.score}</span></li>
-    `;
     ul.classList.add('scores-list', 'list-none');
-    ul.insertAdjacentHTML('beforeend', html);
+    data.result
+      .sort((a, b) => b.score - a.score)
+      .forEach((dat) => {
+        const html = `<li class='singleLi'><span>${dat.user} :</span> <span>${dat.score}</span></li>
+        `;
+        ul.insertAdjacentHTML('beforeend', html);
+      });
+
     ulContainer.appendChild(ul);
   };
 }
