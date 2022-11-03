@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://zuhaib042.github.io/Zuhaib-Leaderboard/dist/)
+[Live Demo Link](https://glistening-pony-d0223e.netlify.app)
 
 ## Getting Started
 
